@@ -27,6 +27,7 @@
 
 <html>
 <head>
+<link rel="stylesheet" href="css/validate.css">
 <title> Confirmation </title>
 </head>
 <body>
