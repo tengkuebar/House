@@ -18,44 +18,42 @@
 
    
 
-    
-
-    
-
-
 %>
 
 <html>
-<head>
-<title> Confirmation </title>
-</head>
-<body>
+    <head>
+        <link rel="stylesheet" href="css/validate.css">
+        <title> Confirmation </title>
+    </head>
+    <body>
 
-<table>
-    <tr>
-    <th>
-
-    <h3> Name : <%= name %> </h3>
-    <h3> appt : <%= appt %></h3>
-    <h3> date : <%= date %></h3>
-    <h3> bedroom : <%= bedroom %></h3>
-    <h3> bathroom : <%= bathroom %></h3>
-    <h3> livingroom : <%= livingroom %></h3>
-    <h3> diningroom : <%= diningroom %></h3>
-    <h3> payment type : <%= payment %></h3>
-
-    </th>
-    </tr>
-</table>
-
-<table>
-<a href="form.jsp">Re-order</a>
-</table>
-
-</body>
+    <div class="main-container">
+        <div  class="text-item">
+                <div class="name">
+                    <h3> Name : <%= name %> </h3>
+                </div>
+                <div class="timeAndDate">
+                    <h3> Time : <%= appt %></h3>
+                    <h3> Date : <%= date %></h3>
+                </div>
+                <div class="contains">
+                    <h3> Bedroom : <%= bedroom %></h3>
+                    <h3> Bathroom : <%= bathroom %></h3>
+                    <h3> Livingroom : <%= livingroom %></h3>
+                    <h3> Diningroom : <%= diningroom %></h3>
+                    <div class="payment">
+                        <h3> Payment Type : <%= payment %></h3>
+                    </div>    
+                </div>    
+        </div>
+    </div>
+    <div class="wrapper">
+        <a href="form.jsp">Re-order</a>
+    </div>
+    </body>
 </html>
 
-
+<!--JSP goes here -->
 
 <%
     }
