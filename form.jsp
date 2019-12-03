@@ -134,10 +134,13 @@ session.invalidate();
          
     </table> 
         <br>
-        <br><br>
-        <input type="submit" name="submit" value="Reserve" class="btn"><br><br>
+          <br>
+            <br>
+              <input type="submit" name="submit" value="Reserve" class="btn">
+            <br>
+        <br>
            
-        </form> 
-    </body>
+  </form> 
+</body>
  
 </html>
